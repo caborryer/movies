@@ -1,0 +1,15 @@
+<div class="jumbotron">
+  <h1 class="display-3 text-center">Welcome to the movie test app</h1>
+  <p class="lead text-center">If you <span>click on the cards</span> the detail of the film will be shown.
+    You can also search for the movie of your preference <br> in the <span>search option of the bar</span> and automatically all the options referring to the term you wrote will appear</p>
+  <hr class="my-4">
+  <p class="lead text-center">
+  </p>
+</div>
+
+<div class="container">
+  <br>
+
+  <app-galery [movies]="mostPopular" title="Popular"></app-galery>
+  <app-galery [movies]="drama" title="Best drama movies"></app-galery>
+</div>
